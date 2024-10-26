@@ -73,18 +73,18 @@ mvn spring-boot:run
 - signup: POST localhost:8080/api/auth/signup
 ```
 {
-  "username": "sonali1",
-  "email": "sonali1@gmail.com",
+  "username": "sha1",
+  "email": "sha@gmail.com",
     "role":["user"],
-  "password": "sonali1@123"
+  "password": "sha@123"
   
 }
 ``` 
 - signin: POST localhost:8080/api/auth/signin
 ```
 {
-  "username": "sonali1",
-  "password": "sonali1@123"
+  "username": "sha1",
+  "password": "sha@123"
 }
 ```
 ## Once you sign in, you will get a token. You need to pass this token in the header for the following requests from Authentication tab of postman by selecting Bearer Token.
@@ -112,7 +112,5 @@ mvn spring-boot:run
 
 ### Reference Documentation
 For further reference, please consider the following sections:
-
-* [Git hub link](https://github.com/sonali-2507/FileSharingApp.git)
 
 
